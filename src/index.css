@@ -14,6 +14,9 @@ body {
 ul {
   list-style: none;
 }
+li {
+  margin-left: 20px;
+}
 a {
   text-decoration: none;
 }
@@ -34,7 +37,7 @@ input {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("./images/banner.png");
+  background-image: url("./public/banner.png");
 }
 nav {
   display: flex;

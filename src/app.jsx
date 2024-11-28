@@ -1,3 +1,13 @@
-const App = () => <h1>Boilerplate Vite + React</h1>
+import { NavBar } from "./components/NavBar"
+import { Header } from "./components/Header"
+
+const App = () => {
+  return (
+    <>
+      <NavBar />
+      <Header />
+    </>
+  )
+}
 
 export { App }
