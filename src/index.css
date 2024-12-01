@@ -304,6 +304,7 @@ nav .menu-btn,
   padding: 0px;
   font-family: "Alfa Slab One";
   margin-bottom: 80px;
+  text-align: center;
 }
 #contact form {
   width: 600px;
@@ -328,11 +329,13 @@ nav .menu-btn,
 #contact form textarea {
   height: 150px;
 }
-#contact form input[type="submit"] {
+#contact form button {
   height: 45px;
   background: linear-gradient(90deg, #bf2222 20%, #bf2222);
   color: #ffffff;
   text-transform: uppercase;
+  width: 200px;
+  border-radius: 5px;
 }
 @media (max-width: 620px) {
   #contact form {
