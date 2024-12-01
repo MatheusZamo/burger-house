@@ -2,16 +2,16 @@ const Header = () => {
   return (
     <div id="main">
       <div className="header-heading">
-        <h3>It's Great Time For A Good Taste Of Burger</h3>
+        <h3>É uma ótima hora para saborear um bom BURGER</h3>
         <h1>
-          <span>BURGER</span> FOR <br /> WEEK
+          <span>BURGER</span> DA <br /> SEMANA
         </h1>
         <p className="details">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sabor incomparável em cada mordida. Peça já o seu!
         </p>
         <div className="header-btns">
           <a href="#" className="header-btn">
-            Order
+            Fazer Pedido
           </a>
         </div>
       </div>

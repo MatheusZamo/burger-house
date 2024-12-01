@@ -2,12 +2,16 @@ const About = () => {
   return (
     <div id="about">
       <div className="about-text">
-        <h1>UPCOMING EVENT</h1>
+        <h1>QUEM SOMOS</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          maxime veniam voluptate, quis mostrum aliquid!
+          No Burger House, acreditamos que um bom hambúrguer é mais do que
+          apenas carne entre dois pães. É uma experiência completa, desde a
+          seleção dos ingredientes mais frescos até a atmosfera aconchegante do
+          nosso restaurante. Combinamos receitas clássicas com toques modernos,
+          criando sabores únicos que vão te surpreender a cada mordida. Venha
+          saborear o melhor hambúrguer da cidade e faça parte da nossa história!
         </p>
-        <button>Read More</button>
+        <button>Sobre Nós</button>
       </div>
       <div className="about-image">
         <img src="about.png" alt="burger" />
