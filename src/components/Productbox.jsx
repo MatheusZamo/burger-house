@@ -7,7 +7,7 @@ const Productbox = ({ image, title }) => {
 
       <div className="a-b-text">
         <h2>{title}</h2>
-        <button className="productbox-button">Order Now</button>
+        <button className="productbox-button">Fazer Pedido</button>
       </div>
     </div>
   )

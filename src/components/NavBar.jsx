@@ -19,10 +19,18 @@ const NavBar = () => {
         <span className="nav-icon"></span>
       </label>
       <ul className="menu">
-        <li>Inicio</li>
-        <li>Produtos</li>
-        <li>Sobre</li>
-        <li>Contato</li>
+        <li>
+          <a href="main">Inicio</a>
+        </li>
+        <li>
+          <a href="product">Produtos</a>
+        </li>
+        <li>
+          <a href="about">Sobre</a>
+        </li>
+        <li>
+          <a href="contact">Contato</a>
+        </li>
       </ul>
     </nav>
   )

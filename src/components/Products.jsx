@@ -3,15 +3,12 @@ import { Productbox } from "./Productbox"
 const Products = () => {
   return (
     <div id="products">
-      <h1>CHOOSE & ENJOY</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis maxime
-        veniam voluptate, quis mostrum aliquid!
-      </p>
+      <h1>ESCOLHA E APRECIE</h1>
+      <p>Carne suculenta, queijo derretido e muito mais. Experimente agora!</p>
       <div className="a-container">
-        <Productbox image={"s1.png"} title="Luger Burger" />
-        <Productbox image={"s2.png"} title="Le Pigeon Burger" />
-        <Productbox image={"s1.png"} title="Luger Burger" />
+        <Productbox image={"duo.jpg"} title="Duo Burger" />
+        <Productbox image={"master.jpg"} title="Master Burger" />
+        <Productbox image={"monster.jpg"} title="Monster Burger" />
       </div>
     </div>
   )

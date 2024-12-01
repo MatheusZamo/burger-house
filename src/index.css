@@ -156,14 +156,16 @@ nav .menu-btn,
   letter-spacing: 2px;
   color: #3d2514;
   font-size: 3rem;
+  text-align: center;
 }
 #products p {
   font-family: "Bebas Neue";
   letter-spacing: 1px;
   color: #3d2514;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-top: -15px;
   margin-bottom: 35px;
+  text-align: center;
 }
 .a-container {
   display: flex;
@@ -189,6 +191,7 @@ nav .menu-btn,
   margin-top: 40px;
   width: 100%;
   height: 100%;
+  border-radius: 50px;
 }
 .a-box:hover {
   box-shadow: 2px 2px 12px rgba(184, 98, 0, 0.445);
